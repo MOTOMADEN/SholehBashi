@@ -1,0 +1,28 @@
+name = "sholehbashi-proxy"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# اگر Gemini خطای "location not supported" داد، این بخش را فعال کنید
+# (Worker را نزدیک سرورهای گوگل اجرا می‌کند، نه نزدیک کاربر):
+# [placement]
+# mode = "smart"
+
+[vars]
+# ترتیب تلاش: اولی اول، اگر خطا داد بعدی
+PROVIDER_ORDER = "gemini,grok"
+# نام مدل‌ها را از مستندات Google AI و xAI چک و در صورت نیاز عوض کنید
+GEMINI_MODEL = "gemini-2.5-flash"
+GROK_MODEL = "grok-4"
+# سقف درخواست روزانه برای هر دستگاه
+DAILY_LIMIT = "30"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sholehbashi"
+# بعد از `wrangler d1 create sholehbashi` شناسه‌ی واقعی را اینجا بگذارید
+database_id = "REPLACE_WITH_YOUR_D1_ID"
+
+# کلیدها را داخل این فایل ننویسید. با این دستورها ثبت کنید:
+#   wrangler secret put GEMINI_API_KEY
+#   wrangler secret put GROK_API_KEY
+#   wrangler secret put ADMIN_TOKEN

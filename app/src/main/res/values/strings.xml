@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">شعله باشی</string>
+    <string name="app_tagline">امشب چی بپزیم؟</string>
+
+    <!-- Welcome dialog -->
+    <string name="welcome_title">به آشپزخونه‌ی شعله باشی خوش اومدی!</string>
+    <string name="welcome_body">این اپ بهت کمک می‌کنه غذای مناسب پیدا کنی: یه غذای تصادفی با دستور پخت بگیر، یا خواسته‌هات رو بگو (مواد دلخواه، حساسیت‌ها، رژیم، وعده و کشور) تا سه پیشنهاد مخصوص خودت بگیری. غذاهای محبوب یا موردنظر برای بعد رو هم نشان‌دار کن.</string>
+    <string name="welcome_close">بستن</string>
+    <string name="welcome_dont_show">دیگر نشان نده</string>
+
+    <!-- Home menu -->
+    <string name="menu_random">غذای رندوم</string>
+    <string name="menu_random_desc">یه غذای تصادفی با دستور پخت</string>
+    <string name="menu_new">غذای جدید</string>
+    <string name="menu_new_desc">خواسته‌هات رو بگو، سه پیشنهاد بگیر</string>
+    <string name="menu_history">غذاهای قبلی</string>
+    <string name="menu_history_desc">غذاهایی که تایید کردی</string>
+    <string name="menu_saved">نشان‌شده‌ها</string>
+    <string name="menu_saved_desc">محبوب‌ها و غذاهای آینده</string>
+    <string name="menu_about">درباره‌ی ما</string>
+    <string name="menu_about_desc">معرفی اپ و ارتباط با سازنده</string>
+
+    <!-- About -->
+    <string name="about_description">شعله باشی دستیار آشپزی توست: پیشنهاد غذا، دستور پخت و برنامه‌ریزی برای پختن‌های بعدی.</string>
+    <string name="about_version">نسخه‌ی %1$s</string>
+    <string name="about_telegram_label">آیدی تلگرام سازنده</string>
+    <!-- TODO: put the real Telegram ID here -->
+    <string name="about_telegram">@Aligpor</string>
+    <string name="about_privacy">برای کنترل دسترسی، یک شناسه‌ی تصادفی نصب، مدل گوشی و نسخه‌ی اندروید هنگام دریافت پیشنهاد به سرور ارسال می‌شود.</string>
+</resources>

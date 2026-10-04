@@ -1,0 +1,36 @@
+# ============ Android Studio / IntelliJ ============
+*.iml
+.idea/
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+build/
+
+# ============ سیستم‌عامل ============
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ============ Build Outputs ============
+*.apk
+*.aab
+*.ap_
+*.dex
+bin/
+gen/
+out/
+release/
+
+# ============ Keystore (امنیتی) ============
+*.jks
+*.keystore
+keystore.properties
+
+# ============ Logs ============
+*.log
+
+# ============ Gradle Wrapper (مهم: نباید نادیده گرفته بشه) ============
+# gradle/wrapper/gradle-wrapper.jar  ← این خط رو نذارید.kotlin/
