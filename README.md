@@ -233,23 +233,3 @@ GitHub Issues: اینجا
 
 تصاویر: Unsplash / Pexels
 ⭐ اگر این پروژه برایتان مفید بود، یک ستاره بدهید!
-
----
-
-## 🎯 مرحله بعدی:
-
-### قدم ۱: جایگزین کردن README
-
-1. فایل `README.md` رو در پروژه باز کنید
-2. کل محتواش رو با متن بالا جایگزین کنید
-3. ذخیره کنید
-
-### قدم ۲: آپلود به GitHub
-
-```bash
-cd /d/xbox/sholehbashi/sholehbashi
-git add README.md
-git commit -m "docs: update README with current project status"
-git push
-
-## ۴. معماری
